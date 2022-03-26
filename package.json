@@ -1,0 +1,56 @@
+{
+  "name": "event-ticket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": " https://rybalovvalentyn.github.io/Event-Ticket",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RybalovValentyn/Event-Ticket.git"
+  },
+  "keywords": [],
+  "author": "walentyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RybalovValentyn/Event-Ticket/issues"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "gh-pages": "^3.2.3",
+    "notiflix": "^3.2.5",
+    "tui-pagination": "^3.4.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-proposal-async-do-expressions": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-async-to-generator": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^6.7.1",
+    "handlebars-loader": "^1.7.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-injector": "^1.1.4",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.3",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "description": ""
+}

@@ -1,0 +1,10 @@
+{
+    "presets": [
+       "@babel/preset-env"  //с помощю каких плагинов обработать код
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-async-do-expressions",
+        "@babel/plugin-transform-async-to-generator",
+    ]
+  }
